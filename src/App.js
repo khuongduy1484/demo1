@@ -36,6 +36,7 @@ export default compose(
     }) => newNotification =>
       setNotifications(notifications.concat(newNotification))
   }),
+
   lifecycle({
     async componentDidMount() {
       const { pushNotification, setToken } = this.props;

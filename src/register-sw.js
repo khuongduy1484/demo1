@@ -11,4 +11,5 @@ const registerServiceWorker = () => {
   }
 };
 
+
 export { registerServiceWorker };
